@@ -7,7 +7,7 @@ client = OpenAI(api_key=api_key)
 
 response = client.completions.create(
     model="text-davinci-003",  # 使用するモデルを指定
-    prompt="ここにプロンプトを入力",  # APIに送るプロンプト
+    prompt="こんにちは、日本",  # APIに送るプロンプト
     max_tokens=50  # 応答の最大トークン数
 )
 
